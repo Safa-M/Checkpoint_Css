@@ -1,0 +1,146 @@
+body {
+  background-color: rgb(243, 184, 184);
+  font-family: roboto;
+  text-align: center;
+}
+h1 {
+  color:rgb(195, 0, 255)
+}
+
+
+/* order the list */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+display: inline;
+}
+
+/* color the titels */
+
+h2 {
+  color: rgb(49, 38, 51);
+}
+
+h2.About {
+  color: rgba(214, 50, 190, 0.733);
+}
+
+h2.Work {
+  color: rgba(214, 50, 190, 0.733);
+}
+h2.Resume {
+  color: rgba(214, 50, 190, 0.733);
+}
+
+h2.Contact {
+  color: rgba(214, 50, 190, 0.733);
+}
+
+h4 {
+  color: rgb(187, 116, 146);
+}
+p {
+  font-size: 80 px;
+  color: rgb(99, 59, 59);
+}
+
+
+/* order the navbar in the same line */
+
+h2.navbar {
+  display: inline;
+  text-align: right; 
+  float: left;
+}
+
+h2.Search {
+  display: inline;
+  text-align: left;
+  float: right;
+}
+
+
+/* visited link */
+a:visited {
+  color: tomato;
+}
+
+/* selected link */
+a:active{
+  color: #0000FF
+}
+
+
+
+
+
+
+
+
+.music {
+  display: flex;
+  justify-content: space-around;
+}
+
+ .header {
+    background-color: #bb2d2d;
+    text-align: center;
+    padding: 20px;
+  }
+
+.About{
+  position: fixed;
+}
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.column {
+  float: left;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+div:hover {
+  background-color: blue;
+}
